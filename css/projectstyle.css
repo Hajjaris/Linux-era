@@ -1,0 +1,87 @@
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* HEADER STYLING */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
+
+/* MAIN PROJECT SECTION */
+.project-details {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.project-details h2, h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.project-details p {
+    margin: 10px 0;
+}
+
+.project-details ul {
+    margin: 10px 0 20px;
+    padding-left: 20px;
+}
+
+.project-details li {
+    margin: 5px 0;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* BACK BUTTON */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #333;
+}
